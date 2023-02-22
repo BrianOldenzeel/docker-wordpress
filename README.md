@@ -19,7 +19,7 @@
    ip: 127.0.0.1, naam: passievoorpaardenhoeve
    ```
    
-   5. open daarna wordpress in je browser door dit in je browser te typen
+5. open daarna wordpress in je browser door dit in je browser te typen
    ```js
    http://passievoorpaardenhoeve
    ```
