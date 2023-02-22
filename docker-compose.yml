@@ -12,17 +12,17 @@ services:
       WORDPRESS_DB_USER: exampleuser
       WORDPRESS_DB_PASSWORD: examplepass
       WORDPRESS_DB_NAME: exampledb
-      VIRTUAL_HOST: difab.nl
+      VIRTUAL_HOST: passievoorpaardenhoeve
     volumes:
       - wordpress:/var/www/html
     extra_hosts:
-      - "difab.nl:127.0.0.1"
+      - "passievoorpaardenhoeve:127.0.0.1"
     links:
       - db
     networks:
       default:
         aliases:
-          - difab.nl
+          - passievoorpaardenhoeve
 
   db:
     image: mysql:5.7
