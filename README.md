@@ -9,16 +9,23 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   https://github.com/BrianOldenzeel/docker-wordpress
    ```
-3. Install NPM packages
+2. Voer het docker-compose commando in
    ```sh
-   npm install
+   docker-compose up -d
    ```
-4. Enter your API in `config.js`
+3. installeer host file editor
+
+4. maak daarna een nieuwe entry aand die zo heet:
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   ip: 127.0.0.1, naam: passievoorpaardenhoeve
+   ```
+   
+   5. open daarna wordpress in je browser door dit in je browser te typen
+   ```js
+   http://passievoorpaardenhoeve
    ```
